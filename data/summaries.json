@@ -1,0 +1,26 @@
+{
+  "6b4c16dd598c2e53c58430c6adcfe2b4": {
+    "url": "https://example.com/test-article",
+    "summary": "This is a test summary for audio generation. It contains enough text to create a meaningful audio file.",
+    "timestamp": 1774993447,
+    "originalLength": 100
+  },
+  "7ddcdff3715cf48377503c7ec4e454a1": {
+    "url": "https://www.cnx-software.com/2026/03/30/select-the-right-hardware-for-your-local-llm-deployment-with-this-online-guide/",
+    "summary": "EXECUTIVE SUMMARY:\nSipeed has developed the \"AI Agent Local LLM Inference Device Deployment Guide\" to help users understand that higher costs do not always equate to better performance when deploying local LLMs. The guide, available on llmdev.guide, provides a comparison of various hardware options for LLM deployment, showcasing that cheaper options can deliver similar performance to more expensive ones. The guide focuses on benchmarking the Qwen 3.5 models and offers insights on price/performance ratios and device specifications.\n\nKEY POINTS:\n\u2022 The deployment guide by Sipeed challenges the notion that higher costs lead to better performance when deploying local LLMs, showcasing that cheaper hardware options can deliver comparable performance.\n\u2022 The guide lists common hardware options with details on price, performance, power consumption, and more for various LLMs, emphasizing the importance of considering price/performance ratios and device specifications.\n\u2022 Benchmarking is primarily focused on Qwen 3.5 models, with options such as Qwen3.5-9B, Qwen3.5-27B, Qwen3.5-35B-A3B, Qwen3.5-122B-A10B, and Qwen3.5-397B-A17B, offering insights into performance references and price comparisons. The guide allows users to explore various hardware options and submit new devices for benchmarking.",
+    "timestamp": 1774993653,
+    "originalLength": 3484
+  },
+  "f4cf11299ed6b9e2287b7c063afb65b6": {
+    "url": "https://www.longwarjournal.org/archives/2026/03/home-of-kurdistan-region-president-targeted-american-universities-threatened-as-attacks-escalate-in-iraq.php",
+    "summary": "EXECUTIVE SUMMARY:\nAttacks in Iraq have escalated, with the home of Kurdistan Region president targeted in a drone attack and threats made against American universities by Iranian-backed militias. The conflict has seen over 500 drone and missile attacks in the region, with recent strikes killing Kurdish Peshmerga and damaging Iraqi military assets. Countries across the Middle East have condemned the attacks, and the US and UN have also voiced strong condemnation.\n\nKEY POINTS:\n\u2022 The home of Kurdistan Region president was targeted in a drone attack, with over 500 drone and missile attacks reported in the region during the conflict.\n\u2022 Iranian-backed militias have escalated attacks in Iraq, resulting in casualties among Kurdish forces and damage to Iraqi military assets.\n\u2022 Threats have been made against American universities in the Middle East by Iran and its aligned terrorist militias, prompting condemnation from various countries and international organizations.",
+    "timestamp": 1775000934,
+    "originalLength": 5669
+  },
+  "4ae85b8f9464263417632f137627fc32": {
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/dissenting-voices-against-ai-are-getting-louder/articleshow/129907947.cms",
+    "summary": "EXECUTIVE SUMMARY:\nProtesters in San Francisco called for a pause in the development of AI systems due to existential risks, but experts argue against a ban, emphasizing the need for solutions to mitigate potential harms. AI pioneers and organizations are raising awareness about the dangers of superintelligence. While some advocate for technical solutions to control rogue AI systems, others stress the importance of ensuring the safety and verification of AI systems.\n\nKEY POINTS:\n\u2022 Protesters in San Francisco demand a halt in AI development citing existential threats and potential dangers.\n\u2022 AI pioneers and organizations, including Stuart Russell and the Future of Life Institute, support campaigns to raise awareness about the risks of superintelligence.\n\u2022 Experts argue against a ban on AI development, emphasizing the need for technical solutions to control rogue AI systems and ensure safety and verification processes.",
+    "timestamp": 1775019696,
+    "originalLength": 5309
+  }
+}

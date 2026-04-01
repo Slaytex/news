@@ -1,0 +1,18 @@
+# Environment files with API keys
+.env
+.env.local
+.env.production
+
+# Data files (summaries and audio)
+data/summaries.json
+data/audio/*.mp3
+
+# Debug and test files
+debug-*.php
+test-*.php
+*test*
+
+# OS files
+.DS_Store
+._*
+Thumbs.db

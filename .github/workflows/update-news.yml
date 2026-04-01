@@ -1,0 +1,26 @@
+name: Update News
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Fetch News and Build
+      env:
+        NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+      run: |
+        curl -s "https://newsapi.org/v2/everything?q=China%20United%20States&sortBy=publishedAt&pageSize=10&language=en&apiKey=$NEWS_API_KEY" | node build.js > index.html
+        
+    - name: Commit and Push
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add index.html
+        git diff --staged --quiet || git commit -m "Update news $(date)"
+        git push
